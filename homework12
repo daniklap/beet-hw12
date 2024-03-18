@@ -1,0 +1,247 @@
+#12 Homework for Lesson 12 for Monday 16 Feb 2024 by Daniel Clapa
+
+Beet Seed  — get the basic skills down.
+Create a high-level test case to test the functionality of the mobile application of choice.
+ Mobile application: News aggregation app
+High-level test case: Load articles into the app
+Create 3 low-level test cases based on the high-level one.
+Test ID: Test Case 1
+Title: Load the name of the news organization 
+Description: The name of the news organization loads into the reading panel.
+Preconditions: The app is installed on a mobile device
+Steps to reproduce, with Expected results:
+1. Click or tap on the News app
+1. App opens
+2. News articles load with the name of the news organization
+2. The name-logo of the news organization is displayed above the news article
+
+ Test ID: Test Case 2
+Title: Load the full title of the article 
+Description: The title of the article loads into the select panel.
+Preconditions: The app is installed on a mobile device
+Steps to reproduce, with Expected results:
+1. Click or tap on the News app
+1. App opens
+2. The title of the article loads 
+2. The title of the article is displayed above the news article
+
+Test ID: Test Case 3
+Title: Load full content of the article 
+Description: The full content of the article loads into the reading panel when clicked or tapped.
+Preconditions: The app is installed on a mobile device, and the News app is opened and loaded
+Steps to reproduce, with Expected results:
+1. Click or tap on one of the available articles
+1. Article opens in the reading panel
+2. Full content loads into the reading panel
+2. Full content of the article is available for reading
+
+
+
+Beet Sprout — dive deeper into practice.
+Estimate how long it will take to complete the test cases from the previous task. Use at least 2 techniques for evaluation (e.g. WBC and three-point estimate).
+Using the WBC estimation technique, to execute the testing of the 3 test cases listed above: 
+Test Case 1: Title: Load the name of the news organization
+Task
+Estimated time to complete task
+Install mobile app on mobile device
+1 minute
+Click or Tap on the Mobile App, wait until it loads
+2 seconds
+Find the name and logo of the news organization on its website
+10 seconds
+Compare the name-logo of the news organization to the one got displayed on the mobile app
+5 seconds
+Total time estimated: 
+1 minute 17 seconds
+
+Test Case 2: Title: Load the full title of the article
+Task
+Estimated time to complete task
+Click or Tap on the Mobile App, wait until it loads
+2 seconds
+Take visual note of the full article title
+10 seconds
+Find this article on the web
+30 seconds
+Compare the news article title between the app and the website
+30 seconds
+Total time estimated: 
+1 minute 12 seconds
+
+Test Case 3: Title: Load full content of the article
+Task
+Estimated time to complete task
+Click or Tap on the Mobile App, wait until it loads
+2 seconds
+Click or Tap on the Article name
+2 seconds
+Open the known source of the articles such as from a website of the news organization
+30 seconds
+Compare the content of the article between the Mobile App and the website 
+Depending upon the length of the article, this could take 5-10 minutes
+Total time estimated: 
+5.5 minutes to 10.5 minutes
+
+Using the three-point estimation technique, to execute the testing of the 3 test cases listed above:
+Test Case 1: Title: Load the name of the news organization
+Estimate name
+Estimated time to complete task
+Optimistic
+1 minute
+Realistic
+2 minutes
+Pessimistic
+3.5 minutes
+E = (a + m + b) / 3
+(1 + 2 + 3.5) / 3 = 2.2
+Total time estimated: 
+2.2 minutes
+
+Test Case 2: Title: Load the full title of the article
+Estimate name
+Estimated time to complete task
+Optimistic
+2 minute
+Realistic
+3 minutes
+Pessimistic
+5 minutes
+E = (a + m + b) / 3
+(2 + 3 + 5) / 3 = 3.3
+Total time estimated: 
+3.3 minutes
+
+Test Case 3: Title: Load full content of the article
+Estimate name
+Estimated time to complete task
+Optimistic
+5 minute
+Realistic
+7 minutes
+Pessimistic
+10 minutes
+E = (a + m + b) / 3
+(5 + 7 + 10) / 3 = 7.3
+Total time estimated: 
+7.3 minutes
+
+
+
+Hi Daniel, Below is my feedback: Beet Seed: Good job with the high and low level test cases. Beet Sprout: Good job with the estimations as well. One remark – in the real world nobody does estimations in seconds or minutes, only in hours or/and days 😊 However, good use of the 2 approaches.
+
+Mighty Beet: get an all-round topics coverage by completing level three of the home assignment:
+We keep on working on a startup for a cat photo sharing app. The testing team is growing along with the product. You are thinking about creating a test strategy. Try to create a document that would meet the needs of your team (template attached). 
+[name of project]
+Test Strategy
+Revision History
+Date
+Version
+Author
+Description
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of Contents
+1.Scope			3
+2.Test Approach		4
+3.Test Environment		5
+4.Testing Tools		6
+5.Release Control		7
+6.Risk Analysis		8
+7.Review and Approvals	9
+
+1. Scope
+It defines parameters like
+Who will review the document?
+
+
+Who will approve this document?
+
+
+Testing activities carried out with timelines
+
+
+2. Test Approach
+It defines
+Process of testing
+
+
+Testing levels
+
+
+Roles and responsibilities of each team member
+
+
+Types of Testing ( Load testing, Security testing, Performance testing etc.)
+
+
+Testing approach & automation tool if applicable
+
+
+Adding new defects, re-testing, Defect triage, Regression Testing and test sign off
+
+
+Test Environment
+Define number of requirement and setup required for each environment
+
+
+Define backup of test data and restore strategy
+
+
+Testing Tools
+Automation and Test management tools needed for test execution
+	
+Figure out number of open-source as well as commercial tools required, and 	determine how many users are supported on it and plan accordingly
+
+
+
+Release Control
+Release management plan with appropriate version history that will make sure 	test execution for all modification in that release
+
+
+
+Risk Analysis
+List all risks that you can estimate
+
+Give a clear plan to mitigate the risks also a contingency plan
+
+
+
+Review 	and Approvals
+All these activities are reviewed and sign-off by the business team, project management, development team, etc. 
+
+Summary of review changes should be traced at the beginning of the document 	along with approved date, name, and comment
+
+
+
+
